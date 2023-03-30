@@ -1,4 +1,4 @@
-﻿===================================
+===================================
 Classic AltTab
 ===================================
 
@@ -7,10 +7,29 @@ Classic AltTab
 	Configured to use key combinations Win+Tab and Win+Shift+Tab to
 	navigate in the list of current windows on the desktop.
 	
-	Unlike Alt-Tab feature, it only show simple list of winndows
+	Unlike Windows Alt-Tab feature, it only show simple list of winndows
 	as icons and text. It doesn't group windows of the same type
 	or from the same process. The list is one-dimensional, 
 	which should make navigation fast and simple.
+
+
+FAQ
+------------
+
+	Q: How to close and disable this tool?
+	
+	A1:
+		Click on its icon in the tray area and close the window.
+	A2:
+		After pressed the Win+Tab key combination,
+		release the Tab key, then press the 'Q' key.
+		I.e. press the 'Q' key when the main window is opened.
+	A3:
+		Just like in A2, use mouse cursor to close the window.
+
+	Q: Which Windows versions has been tested?
+	A: Windows 7.
+	
 
 Command Line Options
 -------------------------
@@ -43,9 +62,8 @@ Command Line Options
 		Tray icon can be used to easiliy show the main window,
 		which in turn may be used to close and disable this tool.
 
+
 About
 -----------------
 	Author: ike9000
-	
 	URL: https://github.com/ike9000e/Classic-AltTab
-
