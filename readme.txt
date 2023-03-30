@@ -27,15 +27,12 @@ FAQ
 	A3:
 		Just like in A2, use mouse cursor to close the window.
 
-	Q: Which Windows versions has been tested?
-	A: Windows 7.
-	
 
 Command Line Options
 -------------------------
 
-	Use following command line options to configure some parts of 
-	apperance and functionality.
+	Use following command line options to configure some parts 
+	of apperance or functionality.
 	
 	-color_spec TEXT
 	
