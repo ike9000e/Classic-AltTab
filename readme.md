@@ -1,6 +1,4 @@
-﻿![preview_a](https://raw.githubusercontent.com/ike9000e/Classic-AltTab/main/preview_anim_01_outpv_7s.gif "a preview")
-![preview_a](preview_anim_01_outpv_7s.gif "a preview")
-===================================
+﻿
 Classic AltTab
 ===================================
 
@@ -13,6 +11,9 @@ Classic AltTab
 	as icons and text. It doesn't group windows of the same type
 	or from the same process. The list is one-dimensional, 
 	which should make navigation fast and simple.
+
+
+![preview_a](preview_anim_01_outpv_7s.gif "a preview")
 
 
 FAQ
