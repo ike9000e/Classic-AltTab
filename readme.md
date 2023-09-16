@@ -13,7 +13,7 @@ Classic AltTab
 	which should make navigation fast and simple.
 
 
-	![preview_a](assets/preview_anim_01_outpv_7s.gif "preview_a")
+![preview_a](assets/preview_anim_01_outpv_7s.gif "preview_a")
 
 
 FAQ
