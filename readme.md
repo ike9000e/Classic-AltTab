@@ -13,7 +13,7 @@ Classic AltTab
 	which should make navigation fast and simple.
 
 
-![preview_a](assets/preview_anim_01_outpv_7s.gif "a preview")
+	![preview_a](assets/preview_anim_01_outpv_7s.gif "preview_a")
 
 
 FAQ
@@ -60,7 +60,45 @@ Command Line Options
 		Tray icon can be used to easiliy show the main window,
 		which in turn may be used to close and disable this tool.
 
+	-nWinListOmitMode 0|7|10  --  Default: 10
+	
+		Mode to use. Ie. use 10 on Windows 10, and 7 on Windows 7.
+		Setting this to 0 disables window omiting which will cause
+		many, possibly unwamted, windows appear on the tabbing list.
+	
+	-bPrintWndNames2 0|1  --  Default: 0
+	
+		Debug purpose. Print all window names to the Stdout while tabbing.
+	
+	-bShowExeName 0|1  --  Default: 0
+			
+		Show executable name of the window in its item name in the tabbing list.
+		
+	-nMaxTitleLen INT  --  Default: 64
+	
+		Maximum length of the window text in the tabbing list.
+	
+	-anLabelSeparator STR  --  Default: "|"
+	
+		Separator text in the tabbing list.
 
+	-anHKAltTab STR       --  Default: "8,192"
+	-anHKAltShiftTab STR  --  Default: "12,192"
+		
+		Hotkey combinations that trigger the new alttab and altshifttab.
+		It must specify two values, separated with comma.
+		First spcifies the modkey combination, as OR-ed values, 
+		which can be on or more flags set.
+		Values of 1,2,4 and 8 stand for Alt, Control, Shift and Winkey keys, respectivelly.
+		Second value is the keyboard key code, the virtual key code from the Winapi documentation.
+		Eg. 192 is the tilde (aka. grave aka. accent) key.
+		-anHKAltTab is the one that simulates alternate Alt+Tab.
+		-anHKAltShiftTab is the one that simulates alternate Alt+Shift+Tab.
+		
+		Either must not specify the key combination that is already
+		used by the system or other application.
+		
+		
 About
 -----------------
 	Author: ike9000
