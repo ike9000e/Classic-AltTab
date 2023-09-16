@@ -1,6 +1,9 @@
-===================================
+﻿===================================
 Classic AltTab
 ===================================
+
+	![preview_a](preview_anim_01_outpv_7s.gif)
+
 
 	Similarly to the built-in Alt-Tab feature in Windows,
 	shows a menu that allows selecting the window to switch to.
