@@ -2,8 +2,7 @@
 Classic AltTab
 ===================================
 
-	![preview_a](https://raw.githubusercontent.com/ike9000e/Classic-AltTab/main/preview_anim_01_outpv_7s.gif)
-
+	![preview_a](https://raw.githubusercontent.com/ike9000e/Classic-AltTab/main/preview_anim_01_outpv_7s.gif "a preview")
 
 	Similarly to the built-in Alt-Tab feature in Windows,
 	shows a menu that allows selecting the window to switch to.
