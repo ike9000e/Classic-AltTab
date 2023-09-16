@@ -4,7 +4,7 @@ Classic AltTab
 
 	Similarly to the built-in Alt-Tab feature in Windows,
 	shows a menu that allows selecting the window to switch to.
-	Configured to use key combinations Win+Tab and Win+Shift+Tab to
+	Configured to use key combinations Win+Tilde and Win+Shift+Tilde to
 	navigate in the list of current windows on the desktop.
 	
 	Unlike Windows Alt-Tab feature, it only show simple list of winndows
@@ -23,12 +23,10 @@ FAQ
 	
 	A1:
 		Click on its icon in the tray area and close the window.
-	A2:
-		After pressed the Win+Tab key combination,
-		release the Tab key, then press the 'Q' key.
-		I.e. press the 'Q' key when the main window is opened.
+  	A2:
+		Use mouse cursor to close the window.
 	A3:
-		Just like in A2, use mouse cursor to close the window.
+		While in the main window, press the 'Q' key.
 
 
 Command Line Options
