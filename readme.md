@@ -3,13 +3,13 @@ Classic AltTab Helper
 ===================================
 
 	Similarly to the built-in Alt-Tab feature in Windows,
-	shows a menu that allows selecting windows to switch to.
+	shows a menu that allows selecting a task to switch to.
 	Replacement for task switching with Alt-Tab and Alt-Shift-Tab keys.
 
-	Unlike modern Windows feature, shows only simple list
+	Compared to modern task switching, shows only simple list
 	as icons and text. It doesn't group windows of the same type
 	or from the same process. The list is one-dimensional,
-	which should make navigation fast and efficient.
+	which should make navigation faster, where necessary.
 
 	Use as an auxiliary task switching, rather than replacement,
 	possible via command-line user configuration.
@@ -21,12 +21,13 @@ Classic AltTab Helper
 Features
 -----------------------
 
-	* Can be started or disabled and turned off at any time.
+	* Can be started or turned off at any time.
 	* Does not require to be run with the system startup.
-	* Shows the tray icon that can be used to turn it off (can be disabled).
+	* Shows the tray icon that can be used to turn it off.
 	* Does not require installation of any additional software, like service or driver.
 	* Does not require - but is preferred - to be run with the administrator level priviledges,
-	* Can be configured from the command line.
+	* Color scheme can be freely changed.
+	* Optional configuration from the command line.
 
 
 Installation
@@ -53,9 +54,9 @@ Manual Installation
 Limitations
 -----------------------
 
-	If the program is not started with the administrator
+	If the program is not started with the administrator level
 	priviledges, it wont appear on the screen when tabbing out from
-	windows that themself run in that priviledges, in turn.
+	any window that itself runs in that priviledges, in turn.
 	Note that this itself may be an intended functionality, instead.
 
 
@@ -64,12 +65,10 @@ FAQ
 
 	Q: How to close and disable this program?
 
-	A1:
-		Click on its icon in the tray area and close the window.
-  	A2:
-		Use mouse cursor to close the window.
-	A3:
-		While in the main window, press control key and then the 'Q' key.
+	A: Can be done by one of the following:
+		* Use icon in the tray area to activate the window, then close it.
+		* Use mouse cursor to close the window.
+		* While in the main window, press the 'Q' key for the option.
 
 
 Command Line Options
@@ -177,6 +176,11 @@ Changelog
 		* More command line options.
 		* Fixed bug with windows not activating from minimized state.
 		* Fixed bug where maximized windows were incorrectly activating as "restored".
+
+	v1.3.2
+
+		* General navigation improvements. (Still not perfect.)
+		* Fixed bug with browse-for-file windows.
 
 
 About
